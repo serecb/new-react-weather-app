@@ -1,0 +1,17 @@
+.Weather-temp,
+.Weather .unit {
+  color: #3e3b77;
+  font-weight: 900;
+}
+.Weather-temp {
+  font-size: 64px;
+  line-height: 1.5;
+  margin-left: 5px;
+  margin-left: 10px;
+}
+.Weather .unit {
+  font-size: 15px;
+  position: relative;
+  line-height: 1;
+  top: -34px;
+}
