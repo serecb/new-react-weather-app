@@ -11,7 +11,7 @@ export default function WeatherInfo(props) {
         {props.data.city}, {props.data.country}
       </h1>
       <WeatherConversion celsius={props.data.temperature} />
-      <WeatherIcon code={props.data.icon} size={150} />
+      <WeatherIcon code={props.data.icon} size={100} />
       <h3 className="text-capitalize txt-center">
         <em>{props.data.description}</em>
       </h3>

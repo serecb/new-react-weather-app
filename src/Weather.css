@@ -7,17 +7,16 @@ input[type="search"] {
   border: 2px solid black;
   padding: 15px 15px;
   margin-top: 20px;
-  width: 330px;
+  width: 280px;
   height: 50px;
   margin-left: 200px;
 }
 button {
   width: 100px;
-  height: 50px;
+  height: 45px;
   background-color: #4b4971;
   margin-top: 20px;
-  margin-left: -265px;
-  display: inline;
+  margin-left: -400px;
 }
 
 .Weather .form-control {
