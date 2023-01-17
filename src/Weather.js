@@ -43,8 +43,8 @@ export default function Weather(props) {
     return (
       <div className="Weather">
         <div className="row">
-          <form className="d-sm-flex" onSubmit={handleSubmit}>
-            <div className="col-8">
+          <form onSubmit={handleSubmit}>
+            <div className="col-md-6 mx-auto">
               <input
                 type="search"
                 placeholder="Enter a city..."
@@ -53,7 +53,7 @@ export default function Weather(props) {
                 autoFocus="on"
               />
             </div>
-            <div className="col-4">
+            <div className="col-md-6 mx-auto">
               <button type="submit">Search</button>
             </div>
           </form>

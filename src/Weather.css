@@ -9,14 +9,13 @@ input[type="search"] {
   margin-top: 20px;
   width: 280px;
   height: 50px;
-  margin-left: 200px;
 }
 button {
   width: 100px;
   height: 45px;
   background-color: #4b4971;
   margin-top: 20px;
-  margin-left: -400px;
+  display: inline;
 }
 
 .Weather .form-control {
