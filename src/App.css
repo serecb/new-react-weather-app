@@ -9,6 +9,7 @@ body {
   font-family: Roboto, sans-serif;
   color: #fff;
   text-align: center;
+  opacity: 0.7;
 }
 .App,
 .github-logo {
@@ -26,8 +27,8 @@ body {
     #f9dca0
   );
   margin-top: 60px;
-  margin-left: 23%;
-  width: 60%;
+  margin-left: 18%;
+  width: 70%;
 }
 
 .github-logo {
