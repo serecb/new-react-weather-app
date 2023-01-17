@@ -21,3 +21,14 @@ button {
 .Weather .form-control {
   display: inline-block;
 }
+@media (max-width: 600px) {
+  input[type="search"] {
+    width: 150px;
+    height: 35px;
+  }
+  button {
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+  }
+}

@@ -6,7 +6,6 @@
 .Weather-temp {
   font-size: 58px;
   line-height: 1.5;
-  margin-left: 5px;
   margin-left: 10px;
 }
 .Weather .unit {
@@ -14,4 +13,12 @@
   position: relative;
   line-height: 1;
   top: -34px;
+}
+@media (max-width: 600px) {
+  .Weather-temp {
+    font-size: 30px;
+  }
+  .Weather .unit {
+    top: -10px;
+  }
 }

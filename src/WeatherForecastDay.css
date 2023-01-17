@@ -1,0 +1,16 @@
+@media (max-width: 600px) {
+  .WeatherForecast-day {
+    font-size: 13px;
+  }
+  .WeatherForecast-temperature-max {
+    font-size: 15px;
+  }
+
+  .WeatherForecast-temperature-min,
+  .WeatherForecast-description {
+    font-size: 10px;
+  }
+  .WeatherForecast-description {
+    padding-bottom: 10px;
+  }
+}
